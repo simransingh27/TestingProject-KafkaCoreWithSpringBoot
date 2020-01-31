@@ -1,14 +1,9 @@
 package sprinbootkafka.kafkapublisher;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 import sprinbootkafka.kafkapublisher.model.User;
-
 import java.io.*;
-import java.lang.reflect.Array;
-import java.sql.SQLOutput;
 
 @RestController
 @RequestMapping("Kafka")
